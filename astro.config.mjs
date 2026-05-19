@@ -6,19 +6,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Graduate Blog',
+			description: 'A blog about my graduate school journey.',
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '开始',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: '首页', slug: '' },
 					],
 				},
 				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					label: '项目展示',
+					items: [
+						{ label: 'D2L / RNN 实验探索', slug: 'projects/d2l-rnn' },
+					],
 				},
 			],
 		}),
