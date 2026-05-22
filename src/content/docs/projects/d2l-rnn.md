@@ -45,3 +45,4 @@ model = RNNModelScratch(
     init_rnn_state,
     rnn
 )
+```

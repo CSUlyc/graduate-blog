@@ -10,10 +10,11 @@ export default defineConfig({
 			description: 'A blog about my graduate school journey.',
 			sidebar: [
 				{
-					label: '开始',
+					label: 'D2L 学习笔记',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '首页', slug: '' },
+						{ slug: 'index', label: '首页' },
+						{ slug: '04-数据操作与预处理', label: '04-数据操作与预处理' },
 					],
 				},
 				{
