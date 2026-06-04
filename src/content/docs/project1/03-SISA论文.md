@@ -23,6 +23,9 @@ description: "记录我精读论文《Forget Attention: Importance-Aware Attenti
 
 ---
 
+论文结构
+![SISA论文流程图](/images/SISA论文.png)
+
 ## 1. 为什么选择这篇论文
 
 我在 arXiv 的 `cs.CL`、`cs.LG`、`cs.AI` 等分类中浏览论文时，看到了这篇：
