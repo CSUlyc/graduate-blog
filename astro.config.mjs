@@ -15,6 +15,10 @@ export default defineConfig({
 			title: 'Graduate Blog',
 			description: 'A blog about my graduate school journey.',
 			customCss: ['katex/dist/katex.min.css'],
+			pagefind: false,
+			components: {
+				Search: './src/components/SiteSearch.astro',
+			},
 			sidebar: [
 				{ slug: 'index', label: '首页' },
 				{
